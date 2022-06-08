@@ -39,8 +39,15 @@
               <li class="nav-item link">
                 <a href="mission.html" class="nav-link">Our Mission</a>
               </li>
-              <li class="nav-item link">
-                <a href="services.html" class="nav-link active">Services</a>
+              <li class="nav-item link dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="services.html#servicemusic">Music</a></li>
+                  <li><a class="dropdown-item" href="services.html#servicepreaches">Preaches</a></li>
+                  <li><a class="dropdown-item" href="services.html#serviceverses">Bible Verse</a></li>
+                </ul>
               </li>
               <li class="nav-item link">
                 <a href="contact.html" class="nav-link">Contact Us</a>
@@ -59,9 +66,9 @@
               <h1 class="services-hero-text">Services</h1>
             </div>
       </section>
-
       <!-- Section -->
-      <section id="learn" class="p-5">
+      <div id="servicemusic"></div>
+      <section id="learn" class="p-5"> 
         <div class="container">
           <div class="row align items center justify-content-between">
             <div class="col-md">
@@ -84,6 +91,7 @@
       </section>
       
       <!-- Section -->
+      <div id="servicepreaches"></div>
       <section id="learn" class="preaches p-5">
         <div class="container">
           <div class="row align items center justify-content-between">
@@ -107,6 +115,7 @@
       </section>
      
        <!-- Section -->
+       <div id="serviceverses"></div>
        <section id="learn" class="p-5">
         <div class="container">
           <div class="row align items center justify-content-between">
