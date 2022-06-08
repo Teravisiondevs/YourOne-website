@@ -216,6 +216,13 @@ a {
   padding-top: 5rem;
 
 }
+.music-hero-text
+{
+  font-size: 4.5rem;
+  font-weight: 700;
+  padding-top: 4.5rem;
+
+}
 .preaches{
     background-color: #7537B3;
     color: #fff;
@@ -252,6 +259,7 @@ a {
 .link{
     font-size: 1.2em;
 }
+
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
