@@ -333,5 +333,6 @@ a {
     .musicplayer
     {
         margin: 0rem;
+        padding-right: 3.5em;
     }
 }
