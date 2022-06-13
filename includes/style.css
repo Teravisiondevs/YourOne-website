@@ -237,12 +237,18 @@ a {
 }
 #musicpagebg
 {
-    background: url(images/music.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), 
+    url(images/music.jpg);
 }
 #versespagebg
 {
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), 
     url(images/verse.jpg);
+}
+#preachpagebg
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), 
+    url(images/preach.jpg);
 }
 #musicontents
 {
