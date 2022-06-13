@@ -66,11 +66,11 @@
         <video class="hero-video" src="includes/videos/peoples.mp4" muted loop autoplay></video>
           <div class="overlay"></div>
             <div class="px-4 py-5 my-5 text-center">
-              <h1 class="hero-text">“Therefore welcome one another as Christ has welcomed you, for the glory of God.”</h1>
-              <p class="sub-hero-text">Romans 15:7</p>
+              <h1 class="hero-text" id="chapter"></h1>
+              <p class="sub-hero-text" id="verse"></p>
             </div>
       </section>
-
+      <!-- “Therefore welcome one another as Christ has welcomed you, for the glory of God.”Romans 15:7 -->
       <!-- Section -->
       <section id="learn" class="p-5">
         <div class="container">
@@ -182,5 +182,17 @@
   ScrollReveal().reveal('.yourone-sample', { delay: 500, origin: 'right' });
   ScrollReveal().reveal('.newsletter', { delay: 500, origin: 'bottom' }); 
 </script>
-
+<script>
+  var chapter = ["I can do everything through him who gives me strength.",
+"In the beginning God created the heavens and the earth.",
+"Trust in the LORD with all your heart and lean not on your own understanding.",
+"in all your ways acknowledge him, and he will make your paths straight.",
+"For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord.",
+"gentleness and self-control. Against such things there is no law.",
+"Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit."];
+var verse = ["Phil 4:1", "Gen 1:1", "Prov 3:5", "Prov 3:6", "Rom 6:23", "Gal 5:23", "Matt 28:19"];
+let d = new Date();
+document.getElementById("chapter").innerHTML = chapter[d.getDay()-1];
+document.getElementById("verse").innerHTML = verse[d.getDay()-1];
+</script>
 </html>
