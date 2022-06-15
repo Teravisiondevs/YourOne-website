@@ -140,8 +140,75 @@ a {
 
 .yourone-sample{
     width: 30em;
+    border-radius: 6px;
+    
 }
-
+.preachpagebg{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), 
+    url(images/preaches.jpg);
+}
+.featured
+{
+    margin-top: 47.5px;
+    border-radius: 6px;
+    width: 49rem;
+    height: 27.5rem;
+    position: relative;
+    overflow: hidden;
+}
+.fa-play{
+    width: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.small-img-row{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: white;
+    margin: 20px;
+    border-radius: 6px;
+    width: 85%;
+}
+.small-img-row p{
+    margin-left: 20px;
+    line-height: 22px;
+    font-size: 15px;
+}
+.preaches-small-featured
+{
+    max-height: 20em;
+}
+.small-img
+{
+    position: relative;
+}
+.video-player
+{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    cursor: pointer;
+    display: none;
+}
+.video:focus
+{
+     outline: none;
+}
+.fa-window-close
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    color: white;
+    cursor: pointer;
+}
 .app-feature-section
 {
     background-color: #7537B3;
@@ -233,7 +300,7 @@ a {
 }
 .preaches{
     background-color: #7537B3;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 #musicpagebg
 {
@@ -278,6 +345,8 @@ a {
 .link{
     font-size: 1.2em;
 }
+
+/* modal */
 
 
 @media only screen and (max-width: 768px) {
@@ -363,5 +432,9 @@ a {
     {
         margin: 0rem;
         padding-right: 3.5em;
+    }
+    .featured
+    {
+        width: 17.5rem;
     }
 }
