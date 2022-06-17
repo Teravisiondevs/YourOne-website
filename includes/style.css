@@ -163,6 +163,13 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
+    transition: 500ms;
+    color: #7537B3;
+}
+.fa-play:hover
+{
+    transition: 500ms;
+    color: white;
 }
 .small-img-row{
     display: flex;
@@ -435,6 +442,19 @@ a {
     }
     .featured
     {
-        width: 17.5rem;
+        width: 18.5rem;
+        height: 10.5rem
+    }
+    .small-img-row
+    {
+        display: block;
+    }
+    .fa-play
+    {
+        width: 10px;
+    }
+    .video-player
+    {
+        transform: translate(-50%, 670%);
     }
 }
